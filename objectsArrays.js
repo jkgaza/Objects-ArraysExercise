@@ -11,12 +11,31 @@
         the character and the opponent. (Or you can remove a random number from each.) 
     ● Exit the loop when the user response is null, which means that the cancel button was
         clicked.*/
+// let name = "";
+// let health = "";
+// let characters = [
+//     new this.Character((name = "Jenny"), (health = 50)),
+//     new this.Character((name = "Terra"), (health = 60)),
+//     new this.Character((name = "Lila"), (health = 70)),
+// ];
 
-let characters = [
-    new this.Character("Jenny", 50),
-    new this.Character("Terra", 60),
-    new this.Character("Lila", 70),
-];
+// let opponent = new this.Opponent((name = "Velma"), (health = 100));
 
-let opponent = new this.Opponent("Velma", 100);
+
+// Constructor function for Person objects
+function Character(name, health) {
+    this.charName = name;
+    this.charHealth = health;
+  }
+  
+// Create two Person objects
+let char1 = new Character("John", 50);
+let char2 = new Character("Sally", 50);
+let char3 = new Character("Lila", 50);
+  
+  // Display age
+  document.getElementById("demo").innerHTML =
+  "My father is " + myFather.age + ". My mother is " + myMother.age + ".";
+
+
 
