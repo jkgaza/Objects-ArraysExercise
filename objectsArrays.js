@@ -34,8 +34,8 @@ let char2 = new Character("Sally", 50);
 let char3 = new Character("Lila", 50);
   
   // Display age
-  document.getElementById("demo").innerHTML =
-  "My father is " + myFather.age + ". My mother is " + myMother.age + ".";
+  
+  console.log("My father is " + char1.charName + ". My mother is " + char2.charName + ".");
 
 
 
