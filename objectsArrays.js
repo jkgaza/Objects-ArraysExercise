@@ -32,10 +32,11 @@
 //   console.log("The villain is " + opp.charName + ".");
 
 let characterArr = [
-  ("Lisa", 50),
-  ("Joe", 50),
-  ("David", 50),
+  {name: "Lisa", health: 50},
+  {name: "Joe", health: 50},
+  {name: "David", health: 50}
 ];
+
 
 let opponent = {
   name: "Jeff",
@@ -52,7 +53,7 @@ let opponent = {
 // }
 
 for (var i = 0; i < characterArr.length; ++i) {
-  console.log('value at index [' + i + '] is: [' + characterArr[i] + ']');
+  console.log('The character [' + i +'] has [' + characterArr[i] + '] health');
 }
 
 
