@@ -11,15 +11,7 @@
         the character and the opponent. (Or you can remove a random number from each.) 
     ● Exit the loop when the user response is null, which means that the cancel button was
         clicked.*/
-// let name = "";
-// let health = "";
-// let characters = [
-//     new this.Character((name = "Jenny"), (health = 50)),
-//     new this.Character((name = "Terra"), (health = 60)),
-//     new this.Character((name = "Lila"), (health = 70)),
-// ];
 
-// let opponent = new this.Opponent((name = "Velma"), (health = 100));
 
 
 // Constructor function for objects
@@ -45,7 +37,10 @@ let myArr = [
   ("David", 50),
 ];
 
-let villain = ("Opponent", 100);
+let opponent = (
+  name = "Jeff",
+  health = 100
+);
 
 for (var i = 0; i < myArr.length; ++i) {
   console.log('value at index [' + i + '] is: [' + myArr[i] + ']');
