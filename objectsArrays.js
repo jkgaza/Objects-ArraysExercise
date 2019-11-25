@@ -22,20 +22,21 @@
 // let opponent = new this.Opponent((name = "Velma"), (health = 100));
 
 
-// Constructor function for Person objects
+// Constructor function for objects
 function Character(name, health) {
     this.charName = name;
     this.charHealth = health;
   }
   
-// Create two Person objects
+// Create objects
 let char1 = new Character("John", 50);
 let char2 = new Character("Sally", 50);
 let char3 = new Character("Lila", 50);
+let opp = new Character("Steve", 100);
   
-  // Display age
+// Display 
   
-  console.log("My father is " + char1.charName + ". My mother is " + char2.charName + ".");
-
+  console.log("Our heros are " + char1.charName + ", " + char2.charName + ", and " + char3.charName + ".");
+  console.log("The villain is " + opp.charName + ".");
 
 
