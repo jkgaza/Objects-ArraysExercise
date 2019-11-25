@@ -31,19 +31,28 @@
 //   console.log("Our heros are " + char1.charName + ", " + char2.charName + ", and " + char3.charName + ".");
 //   console.log("The villain is " + opp.charName + ".");
 
-let myArr = [
+let characterArr = [
   ("Lisa", 50),
   ("Joe", 50),
   ("David", 50),
 ];
 
-let opponent = (
-  name = "Jeff",
-  health = 100
-);
+let opponent = {
+  name: "Jeff",
+  health:  100
+};
 
-for (var i = 0; i < myArr.length; ++i) {
-  console.log('value at index [' + i + '] is: [' + myArr[i] + ']');
+// let characters = {
+//   name1: "Lisa",
+//   name1Health: 50,
+//   name2: "Joe",
+//   name2Health: 50,
+//   name3: "David",
+//   name3Health: 50,
+// }
+
+for (var i = 0; i < characterArr.length; ++i) {
+  console.log('value at index [' + i + '] is: [' + characterArr[i] + ']');
 }
 
 
