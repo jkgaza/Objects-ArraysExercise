@@ -23,20 +23,32 @@
 
 
 // Constructor function for objects
-function Character(name, health) {
-    this.charName = name;
-    this.charHealth = health;
-  }
+// function Character(name, health) {
+//     this.charName = name;
+//     this.charHealth = health;
+//   }
   
-// Create objects
-let char1 = new Character("John", 50);
-let char2 = new Character("Sally", 50);
-let char3 = new Character("Lila", 50);
-let opp = new Character("Steve", 100);
+// // Create objects
+// let char1 = new Character("John", 50);
+// let char2 = new Character("Sally", 50);
+// let char3 = new Character("Lila", 50);
+// let opp = new Character("Steve", 100);
   
-// Display 
+// // Display 
   
-  console.log("Our heros are " + char1.charName + ", " + char2.charName + ", and " + char3.charName + ".");
-  console.log("The villain is " + opp.charName + ".");
+//   console.log("Our heros are " + char1.charName + ", " + char2.charName + ", and " + char3.charName + ".");
+//   console.log("The villain is " + opp.charName + ".");
+
+let myArr = [
+  ("Lisa", 50),
+  ("Joe", 50),
+  ("David", 50),
+];
+
+let villain = ("Opponent", 100);
+
+for (var i = 0; i < myArr.length; ++i) {
+  console.log('value at index [' + i + '] is: [' + myArr[i] + ']');
+}
 
 
